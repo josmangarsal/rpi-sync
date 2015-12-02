@@ -8,4 +8,4 @@ and run the install.sh.
 Values are:
 - Web url: http://www.mypiweb.com 
 - User: USER 
-- Password PASS
+- Password: PASS
