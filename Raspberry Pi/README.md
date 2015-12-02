@@ -1,3 +1,11 @@
 # Raspberry Pi Intenet Sync
 
-Use your own values in the files and run the install.sh.
+Use your own values in the files 
+- install.sh
+- updateIP
+and run the install.sh.
+
+Values are:
+- Web url: http://www.mypiweb.com 
+- User: USER 
+- Password PASS
