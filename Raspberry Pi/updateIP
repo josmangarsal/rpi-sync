@@ -1,0 +1,14 @@
+#! /bin/sh
+### BEGIN INIT INFO
+# Provides:          updateIP
+# Required-Start:    $local_fs $remote_fs
+# Required-Stop:     $local_fs $remote_fs
+# Should-Start:      $network
+# Should-Stop:       $network
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Update IP in http://www.mypiweb.com
+# Description:       Run the update IP script in order to update the IP in http://www.mypiweb.com
+### END INIT INFO
+
+python /opt/updateIP.py --url http://www.mypiweb.com --file updateIP.php --user USER --password PASS
