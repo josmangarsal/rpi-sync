@@ -1,6 +1,6 @@
 # Raspberry Pi Intenet Sync
 
-Use your own values in the files 
+Use your own values in the files:
 - install.sh
 - updateIP
 and run the install.sh.
