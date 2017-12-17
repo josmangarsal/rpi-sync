@@ -11,4 +11,4 @@
 # Description:       Run the update IP script in order to update the IP in http://www.mypiweb.com
 ### END INIT INFO
 
-python /opt/updateIP.py --url http://www.mypiweb.com --file updateIP.php --user USER --password PASS
+python3 /opt/updateIP.py --url http://www.mypiweb.com/updateIP.php --user USER --password PASS
