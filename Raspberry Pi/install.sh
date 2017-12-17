@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Use your VALUES
-update="python /opt/updateIP.py --url http://www.mypiweb.com --file updateIP.php --user USER --password PASS"
+update="python3 /opt/updateIP.py --url http://www.mypiweb.com/updateIP.php --user USER --password PASS"
 
 # Copy the script to /opt/
 sudo cp updateIP.py /opt/
