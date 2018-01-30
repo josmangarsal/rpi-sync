@@ -21,5 +21,5 @@ rm mycron
 
 # Run on startup
 sudo cp updateIP /etc/init.d/updateIP
-sudo chmod 755 updateIP
+sudo chmod 755 /etc/init.d/updateIP
 sudo update-rc.d updateIP defaults 99
